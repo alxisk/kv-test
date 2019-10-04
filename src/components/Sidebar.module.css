@@ -1,0 +1,10 @@
+.sidebar {
+  padding: 20px;
+  color: white;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}

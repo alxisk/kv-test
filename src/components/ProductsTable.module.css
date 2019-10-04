@@ -1,0 +1,13 @@
+.tableContainer {
+  height: 100%;
+}
+
+:global .ReactVirtualized__Table__headerRow,
+:global
+  .ReactVirtualized__Table__rowColumn:not(:nth-child(2)):not(:nth-child(3)) {
+  text-align: center;
+}
+
+.nothingFound {
+  padding-top: 30vh;
+}

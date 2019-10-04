@@ -1,0 +1,18 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": ["node_modules/**/*"]
+  },
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "prettier": true,
+    "semicolon": false,
+    "arrow-parens": false,
+    "jsx-no-multiline-js": false,
+    "jsx-boolean-value": false,
+    "jsx-no-lambda": false,
+    "jsx-wrap-multiline": false,
+    "object-literal-sort-keys": false,
+    "no-shadowed-variable": false
+  }
+}
